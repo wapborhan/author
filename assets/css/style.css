@@ -1,0 +1,57 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.clr {
+    clear: both;
+}
+
+p {
+    margin: 0;
+}
+
+/*CSS Start*/
+
+/*Header Start*/
+#home {
+    width: 100%;
+}
+
+/*Menu Start*/
+.logo {}
+
+#main-menu {
+    text-align: right;
+}
+
+.menu ul {}
+
+.menu ul li {
+    display: inline-block
+}
+
+.menu ul li a {
+    padding: 10px 20px;
+    background: red;
+}
+
+/*Menu End*/
+
+
+
+/*Header Start*/
