@@ -388,3 +388,41 @@ a.prbtn {
 
 
 /*Pricing Part End*/
+
+
+/*Footer Part Start*/
+#footer {
+    padding: 50px 0px;
+    background: url(../images/footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.foot-left {}
+
+.fot-form {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.fot-fm-left {
+    width: 47%;
+}
+
+.fot-fm-right {
+    width: 47%;
+}
+
+.foot-txt {
+    width: 96%;
+    margin: 0 auto;
+    height: 150px;
+}
+.btns{
+    float: right;
+    padding: 30px 0 0 0;
+    margin-right: 9px;
+}
+/*Footer Part End*/
