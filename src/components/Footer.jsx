@@ -50,7 +50,7 @@ const Footer = () => {
             ></textarea>
 
             <div className="btns">
-              <a href="" className="btn">
+              <a href="" className="btn btn-success w-100">
                 Send
               </a>
             </div>
