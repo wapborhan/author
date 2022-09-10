@@ -1,42 +1,46 @@
 import React from "react";
 import teamimg from "../assets/images/team.jpg";
+import plus from "../assets/images/plus.png";
 
 const team = [
   {
-    item: "Iteam Name 1",
+    item: "Adam Thomas",
     image: teamimg,
-    desc: "Iteam Discription 1",
+    deg: "CEO",
     link: {
       title: "Link",
       href: "#",
-      img: "",
+      img: plus,
     },
   },
   {
-    item: "Iteam Name 1",
+    item: "Nicholar Jonson",
     image: teamimg,
-    desc: "Iteam Discription 1",
+    deg: "CTO",
     link: {
       title: "Link",
       href: "#",
+      img: plus,
     },
   },
   {
-    item: "Iteam Name 1",
+    item: "Hocking Sanson",
     image: teamimg,
-    desc: "Iteam Discription 1",
+    deg: "Co-Founder",
     link: {
       title: "Link",
       href: "#",
+      img: plus,
     },
   },
   {
-    item: "Iteam Name 1",
+    item: "Anna Mallik",
     image: teamimg,
-    desc: "Iteam Discription 1",
+    deg: "Executive",
     link: {
       title: "Link",
       href: "#",
+      img: plus,
     },
   },
 ];
@@ -61,13 +65,13 @@ const Team = () => {
                     </div>
                     <div className="over">
                       <a href="#">
-                        <img src="assets/images/plus.png" alt="" />
+                        <img src={item.link.img} alt="" />
                       </a>
                     </div>
                   </div>
                   <div className="team-content">
-                    <h2>Adam Thomas</h2>
-                    <h3>CEO</h3>
+                    <h2>{item.item}</h2>
+                    <h3>{item.deg}</h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                       Ducimus debitis sapiente tempora aut fuga
