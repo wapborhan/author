@@ -1,4 +1,6 @@
-import { Fragment } from "react";
+import React, { Fragment } from "react";
+import BackToTop from "react-custom-back-to-top-button";
+//Pages
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Portfolio from "./components/Portfolio";
@@ -17,6 +19,7 @@ function App() {
       <Team />
       <Pricing />
       <Footer />
+      <BackToTop style={{ backgroundColor: "#49cbcd" }} />
     </Fragment>
   );
 }
