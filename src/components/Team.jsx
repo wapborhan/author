@@ -1,15 +1,20 @@
 import React from "react";
-import port1 from "../assets/images/port-1.jpg";
-import port2 from "../assets/images/port-2.jpg";
-import port3 from "../assets/images/port-3.jpg";
-import port4 from "../assets/images/port-4.jpg";
-import port5 from "../assets/images/port-5.jpg";
-import port6 from "../assets/images/port-6.jpg";
+import teamimg from "../assets/images/team.jpg";
 
 const team = [
   {
     item: "Iteam Name 1",
-    image: port1,
+    image: teamimg,
+    desc: "Iteam Discription 1",
+    link: {
+      title: "Link",
+      href: "#",
+      img: "",
+    },
+  },
+  {
+    item: "Iteam Name 1",
+    image: teamimg,
     desc: "Iteam Discription 1",
     link: {
       title: "Link",
@@ -18,7 +23,7 @@ const team = [
   },
   {
     item: "Iteam Name 1",
-    image: port2,
+    image: teamimg,
     desc: "Iteam Discription 1",
     link: {
       title: "Link",
@@ -27,34 +32,7 @@ const team = [
   },
   {
     item: "Iteam Name 1",
-    image: port3,
-    desc: "Iteam Discription 1",
-    link: {
-      title: "Link",
-      href: "#",
-    },
-  },
-  {
-    item: "Iteam Name 1",
-    image: port4,
-    desc: "Iteam Discription 1",
-    link: {
-      title: "Link",
-      href: "#",
-    },
-  },
-  {
-    item: "Iteam Name 1",
-    image: port5,
-    desc: "Iteam Discription 1",
-    link: {
-      title: "Link",
-      href: "#",
-    },
-  },
-  {
-    item: "Iteam Name 1",
-    image: port6,
+    image: teamimg,
     desc: "Iteam Discription 1",
     link: {
       title: "Link",
