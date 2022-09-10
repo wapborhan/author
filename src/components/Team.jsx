@@ -6,7 +6,7 @@ import port4 from "../assets/images/port-4.jpg";
 import port5 from "../assets/images/port-5.jpg";
 import port6 from "../assets/images/port-6.jpg";
 
-const port = [
+const team = [
   {
     item: "Iteam Name 1",
     image: port1,
@@ -63,46 +63,46 @@ const port = [
   },
 ];
 
-const Portfolio = () => {
+const Team = () => {
   return (
-    <section id="portfolio">
+    <section id="team">
       <div className="container">
         <div className="row">
           <div className="col-lg-12 head">
-            <h2>Portfolio</h2>
+            <h2>Team</h2>
           </div>
         </div>
-        <div className="row">
-          {port.map((item) => {
+        <div className="row team-main">
+          {team.map((item) => {
             return (
-              <div className="col-lg-4">
-                <div className="portfolio-iteam rounded">
-                  <div className="img rounded">
-                    <img src={item.image} alt="" />
-                  </div>
-                  <div className="overly rounded">
-                    <div className="over-iteam">
-                      <h2>{item.item}</h2>
-                      <p>{item.desc}</p>
-                      <a href="" className="btn btn-success px-4">
-                        {item.link.title}
+              <div className="col-lg-3">
+                <div className="team-iteam">
+                  <div className="icon">
+                    <div className="imgp">
+                      <img src={item.image} alt="" />
+                    </div>
+                    <div className="over">
+                      <a href="#">
+                        <img src="assets/images/plus.png" alt="" />
                       </a>
                     </div>
+                  </div>
+                  <div className="team-content">
+                    <h2>Adam Thomas</h2>
+                    <h3>CEO</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Ducimus debitis sapiente tempora aut fuga
+                    </p>
                   </div>
                 </div>
               </div>
             );
           })}
-
-          <div className="port-btn d-flex">
-            <a href="#" className="btn btn-warning p-3">
-              See All Works
-            </a>
-          </div>
         </div>
       </div>
     </section>
   );
 };
 
-export default Portfolio;
+export default Team;
